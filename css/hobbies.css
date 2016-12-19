@@ -1,0 +1,9 @@
+/*
+ * Styling for the Hobbies section. All styles must either be prefixed with
+ * '#hobbies-section' or be an id or class that's only used in the Hobbies
+ * section.
+ */
+
+ #hobbies-section {
+ 	background-color: grey;
+ }

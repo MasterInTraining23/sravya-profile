@@ -1,0 +1,9 @@
+/*
+ * Styling for the Leadership section. All styles must either be prefixed with
+ * '#leadership-section' or be an id or class that's only used in the
+ * Leadership section.
+ */
+
+ #leadership-section {
+ 	background-color: yellow;
+ }

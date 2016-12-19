@@ -1,0 +1,9 @@
+/*
+ * Styling for the Work Experience section. All styles must either be prefixed
+ * with '#work-experience-section' or be an id or class that's only used in
+ * the Work Experience section.
+ */
+
+ #work-experience-section {
+ 	background-color: orange;
+ }

@@ -1,0 +1,9 @@
+/*
+ * Styling for the Contact section. All styles must either be prefixed with
+ * '#contact-section' or be an id or class that's only used in the Contact
+ * section.
+ */
+
+ #contact-section {
+ 	background-color: blue;
+ }

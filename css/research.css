@@ -1,0 +1,9 @@
+/*
+ * Styling for the Research section. All styles must either be prefixed with
+ * '#research-section' or be an id or class that's only used in the Research
+ * section.
+ */
+
+ #research-section {
+ 	background-color: black;
+ }

@@ -1,0 +1,9 @@
+/*
+ * Styling for the Honors section. All styles must either be prefixed with
+ * '#honors-section' or be an id or class that's only used in the Honors
+ * section.
+ */
+
+ #honors-section {
+ 	background-color: yellow;
+ }

@@ -1,0 +1,32 @@
+/* Styling for the navbar. */
+
+#header {
+	background-color: white;
+	box-sizing: border-box;
+	left: 0;
+	padding: 0 30px;
+	top: 0;
+	width: 100%;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+.header-inner {
+	padding: 30px 0;
+}
+
+.sections {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.section-tab {
+	display: inline;
+}
+
+.section-tab a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}

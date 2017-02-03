@@ -3,6 +3,7 @@
 	<head>
 		<title>Sravya Vishnubhatla</title>
 		<link rel="stylesheet" href="css/about.css">
+		<link rel="stylesheet" href="css/base.css">
 		<link rel="stylesheet" href="css/card.css">
 		<link rel="stylesheet" href="css/contact.css">
 		<link rel="stylesheet" href="css/hobbies.css">
@@ -517,29 +518,45 @@
 			<section id="contact" class="container">
 				<div class="section-content">
 					<div class="section-title">
-						Contact Me
+						<h2>Contact Me</h2>
 					</div>
 					<form>
 						<div class="name-field">
 							<div class="firstname-container">
-								<input type="text" name="firstname" id="firstname">
-								<label for="firstname">First Name</label>
+								<div class="input-container">
+									<input type="text" name="firstname" id="firstname">
+								</div>
+								<div class="label-container">
+									<label for="firstname">First Name</label>
+								</div>
 							</div>
 							<div class="lastname-container">
-								<input type="text" name="lastname" id="lastname">
-								<label for"lastname">Last Name</label>
+								<div class="input-container">
+									<input type="text" name="lastname" id="lastname">
+								</div>
+								<div class="label-container">
+									<label for"lastname">Last Name</label>
+								</div>
 							</div>
 						</div>
 						<div class="email-field">
 							<div class="email-container">
-								<label for="email">Email</label>
-								<input type="text" name="email" id="email">
+								<div class="label-container">
+									<label for="email">Email</label>
+								</div>
+								<div class="input-container">
+									<input type="text" name="email" id="email">
+								</div>
 							</div>
 						</div>
 						<div class="message-field">
 							<div class="message-container">
-								<label for="message">Message</label>
-								<textarea name="message" id="message"></textarea>
+								<div class="label-container">
+									<label for="message">Message</label>
+								</div>
+								<div class="textarea-container">
+									<textarea name="message" id="message"></textarea>
+								</div>
 						</div>
 						<input class="contact-submit" type="submit" value="Send">
 					</form>

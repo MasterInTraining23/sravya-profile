@@ -2,7 +2,13 @@
  * Styling general to all sections.
  */
 
+section {
+	height: 100vh;
+	width: 100vw;
+}
+
  .section-content {
- 	height: 615px;
- 	width: 100%;
+ 	margin-left: 100px;
+ 	margin-right: 100px;
+ 	padding: 34px;
  }

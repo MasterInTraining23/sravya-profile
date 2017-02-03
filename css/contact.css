@@ -4,6 +4,52 @@
  * section.
  */
 
- #contact-section {
- 	background-color: blue;
+ #contact {
+ 	background-color: grey;
  }
+
+ #contact .section-title {
+ 	text-align: center;
+ 	width: 100%;
+ }
+
+#contact form {
+	text-align: center;
+}
+
+#contact .firstname-container,
+#contact .lastname-container {
+	display: inline-block;
+	width: 49%; /* 50% causes it to move to the next line. */
+}
+
+#contact .input-container input,
+#contact .textarea-container textarea {
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	width: 97%;
+}
+
+#contact .input-container input {
+	height: 4vh;
+}
+
+#contact .textarea-container textarea {
+	height: 32vh;
+}
+
+#contact .label-container {
+	text-align: left;
+	padding-bottom: 5px;
+}
+
+#contact .name-field .label-container {
+	padding-left: 7px;
+	padding-top: 5px;
+}
+
+#contact .email-field .label-container,
+#contact .message-field .label-container {
+	padding-left: 15px;
+	padding-top: 25px;
+}

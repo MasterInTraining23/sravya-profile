@@ -1,0 +1,11 @@
+/*
+ * Base styles for the entire site.
+ */
+
+html, body {
+	border: 0;
+ 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+ 	font-size: large;
+ 	margin: 0;
+    padding: 0;
+ }

@@ -13,6 +13,12 @@
  	width: 100%;
  }
 
+ #contact .section-subtitle {
+ 	padding-bottom: 65px;
+ 	text-align: center;
+ 	width: 100%;
+ }
+
 #contact form {
 	text-align: center;
 }
@@ -31,11 +37,11 @@
 }
 
 #contact .input-container input {
-	height: 4vh;
+	height: 32px;
 }
 
 #contact .textarea-container textarea {
-	height: 32vh;
+	height: 256px;
 }
 
 #contact .label-container {
@@ -52,4 +58,15 @@
 #contact .message-field .label-container {
 	padding-left: 15px;
 	padding-top: 25px;
+}
+
+#contact .submit-button-container {
+	padding-top: 2.5vh;
+}
+
+#contact .submit-button {
+	border-style: solid;
+	font-size: medium;
+    height: 7vh;
+    width: 9vw;
 }

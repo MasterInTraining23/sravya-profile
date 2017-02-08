@@ -4,6 +4,52 @@
  * section.
  */
 
- #honors-section {
- 	background-color: yellow;
- }
+#honors {
+	background-color: yellow;
+}
+
+#honors .section-title {
+	text-align: center;
+ 	width: 100%;
+}
+
+#honors .honors-table {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+}
+
+#honors .honors-row {
+	display: table-row;
+}
+
+#honors .honors-trophy,
+#honors .award-name,
+#honors .sponsor {
+	display: table-cell;
+	padding-bottom: 15px; /* Hack to make the rows spread out some. */
+	vertical-align: top;
+}
+
+#honors .honors-trophy {
+	height: 20px;
+	padding-left: 10px;
+	padding-right: 15px;
+	padding-top: 5px;
+	width: 20px;
+}
+
+#honors .honors-trophy img {
+	height: 20px;
+	width: 20px;
+}
+
+#honors .award-name {
+	font-weight: bolder;
+	padding-right: 40px;
+	width: 140px;
+}
+
+#honors .sponsor {
+	font-style: italic;
+}

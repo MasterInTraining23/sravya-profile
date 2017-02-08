@@ -4,20 +4,51 @@
  * section.
  */
 
- #contact {
+#contact {
  	background-color: grey;
- }
+}
 
- #contact .section-title {
+#contact .section-content {
+	height: calc(100% - 20px);
+	margin: 0;
+	padding: 10px;
+	width: calc(100% - 20px);
+}
+
+@media screen and (min-width: 1024px) {
+    #contact .section-content {
+        padding-left: 20vw;
+        padding-right: 20vw;
+        width: calc(100% - 40vw);
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+    #contact .section-content {
+        padding: 5vh 13vw;
+        width: calc(100% - 26vw);
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    #contact .section-content {
+        padding: 5vh 10vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        width: calc(100% - 20vw);
+    }
+}
+ 
+#contact .section-title {
+	text-align: center;
+ 	width: 100%;
+}
+
+#contact .section-subtitle {
+ 	padding-bottom: 45px;
  	text-align: center;
  	width: 100%;
- }
-
- #contact .section-subtitle {
- 	padding-bottom: 65px;
- 	text-align: center;
- 	width: 100%;
- }
+}
 
 #contact form {
 	text-align: center;
@@ -41,7 +72,7 @@
 }
 
 #contact .textarea-container textarea {
-	height: 256px;
+	height: 180px;
 }
 
 #contact .label-container {
@@ -67,6 +98,6 @@
 #contact .submit-button {
 	border-style: solid;
 	font-size: medium;
-    height: 7vh;
-    width: 9vw;
+    height: 45px;
+    width: 90px;
 }

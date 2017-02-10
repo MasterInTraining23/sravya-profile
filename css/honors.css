@@ -8,6 +8,13 @@
 	background-color: yellow;
 }
 
+#honors .section-content {
+	height: calc(100% - 20px);
+	margin: 0;
+	padding: 10px;
+	width: calc(100% - 20px);
+}
+
 #honors .section-title {
 	text-align: center;
  	width: 100%;
@@ -47,9 +54,50 @@
 #honors .award-name {
 	font-weight: bolder;
 	padding-right: 40px;
-	width: 140px;
+	width: 50%;
 }
 
 #honors .sponsor {
 	font-style: italic;
+	width: 50%;
+}
+
+@media screen and (min-width: 1024px) {
+    #honors .section-content {
+        padding-left: 20vw;
+        padding-right: 20vw;
+        width: calc(100% - 40vw);
+    }
+
+    #honors .award-name {
+    	width: 66%;
+    }
+
+    #honors .sponsor {
+    	width: 34%;
+    }
+}
+
+@media screen and (min-width: 726px) and (max-width: 1024px) {
+    #honors .section-content {
+        padding-left: 13vw;
+        padding-right: 13vw;
+        width: calc(100% - 26vw);
+    }
+
+    #honors .award-name {
+    	width: 55%;
+    }
+
+    #honors .sponsor {
+    	width: 45%;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 726px) {
+    #honors .section-content {
+        padding-left: 10vw;
+        padding-right: 10vw;
+        width: calc(100% - 20vw);
+    }
 }

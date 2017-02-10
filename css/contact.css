@@ -25,14 +25,14 @@
 
 @media screen and (min-width: 800px) and (max-width: 1024px) {
     #contact .section-content {
-        padding: 5vh 13vw;
+        padding-left: 13vw;
+        padding-right: 13vw;
         width: calc(100% - 26vw);
     }
 }
 
 @media screen and (min-width: 500px) and (max-width: 800px) {
     #contact .section-content {
-        padding: 5vh 10vw;
         padding-left: 10vw;
         padding-right: 10vw;
         width: calc(100% - 20vw);

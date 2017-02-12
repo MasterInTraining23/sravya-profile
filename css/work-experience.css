@@ -4,6 +4,44 @@
  * the Work Experience section.
  */
 
- #work-experience-section {
- 	background-color: orange;
- }
+#work-experience .section-content {
+	padding-left: 15%;
+	padding-right: 15%;
+	text-align: justify;
+}
+
+#work-experience .back-content-container {
+	padding: 25px;
+}
+
+#work-experience .company-name {
+	font-weight: bold;
+}
+
+#work-experience .dates,
+#work-experience .location {
+	display: inline-block;
+	font-style: italic;
+}
+
+#work-experience .achievements-container {
+	margin-top: 15px;
+	text-align: left;
+}
+
+#work-experience .achievements {
+	margin: 0px 0px 0px 20px;
+	padding: 0;
+}
+
+#work-experience img.silver-spring-networks {
+	height: 100px;
+	margin-left: 17%;
+	margin-top: 30%;
+	width: 300px;
+}
+
+#work-experience .card .back,
+#work-experience .card .front {
+	background-color: white;
+}

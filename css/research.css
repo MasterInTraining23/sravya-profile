@@ -4,6 +4,8 @@
  * section.
  */
 
- #research-section {
- 	background-color: black;
+ #research {
+ 	left: 300vw;
+    position: absolute;
+    top: 85px;
  }

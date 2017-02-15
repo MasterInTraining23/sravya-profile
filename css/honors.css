@@ -5,7 +5,9 @@
  */
 
 #honors {
-	background-color: yellow;
+    left: 100vw;
+    position: absolute;
+    top: 85px;
 }
 
 #honors .section-content {

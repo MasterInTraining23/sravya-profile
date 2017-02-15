@@ -5,40 +5,16 @@
  */
 
 #about {
-	background-color: green;
+	height: calc(100vh - 85px);
+    position: absolute;
+    top: 85px;
 }
 
-#about .section-title {
-	text-align: center;
- 	width: 100%;
+#about .section-content {
+	height: 100%;
 }
 
-#about .profile-content-container {
-	display: table;
-	padding-left: 25%;
-	padding-right: 25%;
-}
-
-#about .profile-content {
-	display: table-row;
-}
-
-#about .blurb,
-#about .profile {
-	display: table-cell;
-	width: 50%;
-}
-
-#about .profile-pic {
-	height: 249px;
-	width: 250px; 
-}
-
-#about .profile {
-	text-align: right;
-}
-
-#about .blurb {
-	padding-left: 5%;
-	vertical-align: middle;
+#about .about-pic {
+	height: 100%;
+	width: 100%;
 }

@@ -7,5 +7,14 @@ html, body {
  	font-family: Geneva, "Trebuchet MS", sans-serif;
  	font-size: large;
  	margin: 0;
+ 	overflow-x: hidden;
     padding: 0;
  }
+
+ul.sections {
+	text-align: left;
+}
+
+#page {
+	width: 1000000px;
+}

@@ -4,6 +4,8 @@
  * section.
  */
 
- #hobbies-section {
- 	background-color: grey;
+ #hobbies {
+ 	left: 600vw;
+    position: absolute;
+    top: 85px;
  }

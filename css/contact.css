@@ -5,12 +5,13 @@
  */
 
 #contact {
- 	background-color: grey;
+ 	left: 700vw;
+    position: absolute;
+    top: 85px;
 }
 
 #contact .section-content {
 	margin: 0;
-	padding: 10px;
 	width: calc(100% - 20px);
 }
 
@@ -44,7 +45,7 @@
 }
 
 #contact .section-subtitle {
- 	padding-bottom: 45px;
+ 	padding-bottom: 35px;
  	text-align: center;
  	width: 100%;
 }
@@ -91,7 +92,7 @@
 }
 
 #contact .submit-button-container {
-	padding-top: 2.5vh;
+	padding-top: 5px;
 }
 
 #contact .submit-button {

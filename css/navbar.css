@@ -1,9 +1,11 @@
 /* Styling for the navbar. */
 
 #header {
+	background-color: #3ddeca;
 	box-sizing: border-box;
 	left: 0;
 	padding: 0 30px;
+	position: absolute;
 	top: 0;
 	width: 100%;
 	-webkit-font-smoothing: subpixel-antialiased;
@@ -17,7 +19,6 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 
 .section-tab {

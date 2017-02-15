@@ -4,6 +4,8 @@
  * Leadership section.
  */
 
- #leadership-section {
- 	background-color: yellow;
+ #leadership {
+ 	left: 400vw;
+    position: absolute;
+    top: 85px;
  }

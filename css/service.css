@@ -4,6 +4,8 @@
  * section.
  */
 
- #service-section {
- 	background-color: red;
+ #service {
+ 	left: 500vw;
+    position: absolute;
+    top: 85px;
  }

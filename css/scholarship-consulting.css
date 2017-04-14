@@ -1,0 +1,38 @@
+/*
+ * Styling for the Scholarship Consulting section. All styles must either be prefixed with
+ * '#scholarship-consulting-section' or be an id or class that's only used in the Scholarship Consulting
+ * section.
+ */
+
+@media screen and (min-width: 1024px) {
+    #contact .section-content {
+        width: calc(100% - 40vw);
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+    #contact .section-content {
+        width: calc(100% - 26vw);
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    #contact .section-content {
+        width: calc(100% - 20vw);
+    }
+}
+ 
+#scholarship-consulting .section-title-container {
+	text-align: center;
+ 	width: 100%;
+}
+
+#scholarship-consulting .section-title {
+	margin-top: 0;
+}
+
+#scholarship-consulting .section-subtitle {
+ 	padding-bottom: 35px;
+ 	text-align: center;
+ 	width: 100%;
+}

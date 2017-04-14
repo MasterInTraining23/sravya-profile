@@ -1,11 +1,30 @@
 /* Styling for the navbar. */
 
 #header {
-	background-color: #3ddeca;
+	background-color: cornsilk;
 	box-sizing: border-box;
 	padding: 0 30px;
 	width: 100%;
 	-webkit-font-smoothing: subpixel-antialiased;
+	text-align: center;
+}
+
+#name {
+	background-color: cornsilk;
+	box-sizing: border-box;
+	padding: 0px;
+	width: 100%;
+	margin: 0px;
+	-webkit-font-smoothing: subpixel-antialiased;
+	font: ;
+	text-align: center;
+	font-family: Snell Roundhand, cursive;
+	font-size: 45px;
+	font-weight: bold;
+}
+
+.name-container {
+	margin: 30px 20px 0px 20px;
 }
 
 .section-names-container {
@@ -27,4 +46,9 @@
 .section-name-anchor {
 	color: black;
 	text-decoration: none;
+}
+
+.section-name-anchor:hover{
+	color: crimson;
+	font-weight: bold;
 }

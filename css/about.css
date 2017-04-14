@@ -5,14 +5,39 @@
  */
 
 #about .about-pic {
-	height: 20%;
-	width: 20%;
+	height: 30%;
+	width: 30%;
+	display: inline-block;
+	padding: 0px 10px 0px 0px;
 }
 
-#about .about-content {
+#about .about-container {
 	margin: auto;
 	width: 100%;
 	padding: 10px;
-	display: block;
+	display: inline-block;
 	text-align: center;
+	vertical-align: top;
+}
+
+.about-content {
+	text-align: left;
+	display: inline-block;	
+	width: 50%;
+	vertical-align: top;
+	margin: 0;
+}
+
+.paragraph-anchor:link {
+	text-decoration: underline;
+}
+
+.paragraph-anchor:visited {
+	text-decoration: none;
+	color:black;
+}
+
+.paragraph-anchor:hover {
+	text-decoration: bold;
+	color: crimson;
 }

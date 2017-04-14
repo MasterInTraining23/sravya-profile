@@ -4,12 +4,6 @@
  * the Work Experience section.
  */
 
-#work-experience {
-	left: 200vw;
-    position: absolute;
-    top: 85px;
-}
-
 #work-experience .section-content {
 	padding-left: 15%;
 	padding-right: 15%;

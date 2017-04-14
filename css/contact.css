@@ -4,38 +4,31 @@
  * section.
  */
 
-#contact .section-content {
-	margin: 0;
-	width: calc(100% - 20px);
-}
-
 @media screen and (min-width: 1024px) {
     #contact .section-content {
-        padding-left: 20vw;
-        padding-right: 20vw;
         width: calc(100% - 40vw);
     }
 }
 
 @media screen and (min-width: 800px) and (max-width: 1024px) {
     #contact .section-content {
-        padding-left: 13vw;
-        padding-right: 13vw;
         width: calc(100% - 26vw);
     }
 }
 
 @media screen and (min-width: 500px) and (max-width: 800px) {
     #contact .section-content {
-        padding-left: 10vw;
-        padding-right: 10vw;
         width: calc(100% - 20vw);
     }
 }
  
-#contact .section-title {
+#contact .section-title-container {
 	text-align: center;
  	width: 100%;
+}
+
+#contact .section-title {
+	margin-top: 0;
 }
 
 #contact .section-subtitle {

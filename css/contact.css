@@ -4,12 +4,6 @@
  * section.
  */
 
-#contact {
- 	left: 700vw;
-    position: absolute;
-    top: 85px;
-}
-
 #contact .section-content {
 	margin: 0;
 	width: calc(100% - 20px);

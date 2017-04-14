@@ -4,12 +4,6 @@
  * section.
  */
 
-#about {
-	height: calc(100vh - 85px);
-    position: absolute;
-    top: 85px;
-}
-
 #about .section-content {
 	height: 100%;
 }

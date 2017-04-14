@@ -3,9 +3,3 @@
  * '#research-section' or be an id or class that's only used in the Research
  * section.
  */
-
- #research {
- 	left: 300vw;
-    position: absolute;
-    top: 85px;
- }

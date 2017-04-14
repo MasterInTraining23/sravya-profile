@@ -4,12 +4,6 @@
  * section.
  */
 
-#honors {
-    left: 100vw;
-    position: absolute;
-    top: 85px;
-}
-
 #honors .section-content {
 	margin: 0;
 	padding: 10px;

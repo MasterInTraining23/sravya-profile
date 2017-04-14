@@ -3,9 +3,3 @@
  * '#leadership-section' or be an id or class that's only used in the
  * Leadership section.
  */
-
- #leadership {
- 	left: 400vw;
-    position: absolute;
-    top: 85px;
- }

@@ -3,6 +3,7 @@
  */
 
 html, body {
+	background-color: #3ddeca;
 	border: 0;
  	font-family: Geneva, "Trebuchet MS", sans-serif;
  	font-size: large;
@@ -13,8 +14,4 @@ html, body {
 
 ul.sections {
 	text-align: left;
-}
-
-#page {
-	width: 1000000px;
 }

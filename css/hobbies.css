@@ -3,9 +3,3 @@
  * '#hobbies-section' or be an id or class that's only used in the Hobbies
  * section.
  */
-
- #hobbies {
- 	left: 600vw;
-    position: absolute;
-    top: 85px;
- }

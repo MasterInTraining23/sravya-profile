@@ -4,15 +4,31 @@
  * section.
  */
 
-#honors .section-content {
-	margin: 0;
-	padding: 10px;
-	width: calc(100% - 20px);
+@media screen and (min-width: 1024px) {
+    #honors .section-content {
+        width: calc(100% - 40vw);
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+    #honors .section-content {
+        width: calc(100% - 26vw);
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    #honors .section-content {
+        width: calc(100% - 20vw);
+    }
+}
+
+#honors .section-title-container {
+    text-align: center;
+    width: 100%;
 }
 
 #honors .section-title {
-	text-align: center;
- 	width: 100%;
+    margin-top: 0;
 }
 
 #honors .honors-table {

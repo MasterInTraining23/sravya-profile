@@ -4,19 +4,25 @@
  * the Work Experience section.
  */
 
+#work-experience .single-work-experience-container {
+	margin-bottom: 25px;
+}
+
 #work-experience .company-img-container,
 #work-experience .experience-info {
 	display: inline-block;
 }
 
 #work-experience .company-img-container {
-	width: 10%;
+	height: 55px;
+	padding-right: 2%;
+	width: 75px;
 	vertical-align: top;
 }
 
 #work-experience .company-img {
 	height: 100%;
-	padding-top: 20%;
+	padding-top: 5%;
 	width: 100%;
 }
 

@@ -87,4 +87,9 @@
 	font-size: medium;
     height: 45px;
     width: 90px;
+    background-color: crimson;
+    border-color: crimson;
+    color: cornsilk;
+    cursor: pointer;
+    border-radius: 4px;
 }

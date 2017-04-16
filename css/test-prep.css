@@ -3,36 +3,3 @@
  * '#test-prep-section' or be an id or class that's only used in the Scholarship Consulting
  * section.
  */
-
-@media screen and (min-width: 1024px) {
-    #test-prep .section-content {
-        width: calc(100% - 40vw);
-    }
-}
-
-@media screen and (min-width: 800px) and (max-width: 1024px) {
-    #test-prep .section-content {
-        width: calc(100% - 26vw);
-    }
-}
-
-@media screen and (min-width: 500px) and (max-width: 800px) {
-    #test-prep .section-content {
-        width: calc(100% - 20vw);
-    }
-}
- 
-#test-prep .section-title-container {
-	text-align: center;
- 	width: 100%;
-}
-
-#test-prep .section-content {
-    padding-left: 15%;
-    padding-right: 15%;
-    text-align: justify;
-}
-
-#test-prep .section-title {
-	margin-top: 0;
-}

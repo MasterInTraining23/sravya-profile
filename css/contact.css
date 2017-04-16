@@ -4,33 +4,6 @@
  * section.
  */
 
-@media screen and (min-width: 1024px) {
-    #contact .section-content {
-        width: calc(100% - 40vw);
-    }
-}
-
-@media screen and (min-width: 800px) and (max-width: 1024px) {
-    #contact .section-content {
-        width: calc(100% - 26vw);
-    }
-}
-
-@media screen and (min-width: 500px) and (max-width: 800px) {
-    #contact .section-content {
-        width: calc(100% - 20vw);
-    }
-}
- 
-#contact .section-title-container {
-	text-align: center;
- 	width: 100%;
-}
-
-#contact .section-title {
-	margin-top: 0;
-}
-
 #contact .section-subtitle {
  	padding-bottom: 35px;
  	text-align: center;

@@ -4,33 +4,6 @@
  * section.
  */
 
-@media screen and (min-width: 1024px) {
-    #honors .section-content {
-        width: calc(100% - 40vw);
-    }
-}
-
-@media screen and (min-width: 800px) and (max-width: 1024px) {
-    #honors .section-content {
-        width: calc(100% - 26vw);
-    }
-}
-
-@media screen and (min-width: 500px) and (max-width: 800px) {
-    #honors .section-content {
-        width: calc(100% - 20vw);
-    }
-}
-
-#honors .section-title-container {
-    text-align: center;
-    width: 100%;
-}
-
-#honors .section-title {
-    margin-top: 0;
-}
-
 #honors .honors-table {
 	display: table;
 	table-layout: fixed;
@@ -71,44 +44,4 @@
 #honors .sponsor {
 	font-style: italic;
 	width: 50%;
-}
-
-@media screen and (min-width: 1024px) {
-    #honors .section-content {
-        padding-left: 20vw;
-        padding-right: 20vw;
-        width: calc(100% - 40vw);
-    }
-
-    #honors .award-name {
-    	width: 66%;
-    }
-
-    #honors .sponsor {
-    	width: 34%;
-    }
-}
-
-@media screen and (min-width: 726px) and (max-width: 1024px) {
-    #honors .section-content {
-        padding-left: 13vw;
-        padding-right: 13vw;
-        width: calc(100% - 26vw);
-    }
-
-    #honors .award-name {
-    	width: 55%;
-    }
-
-    #honors .sponsor {
-    	width: 45%;
-    }
-}
-
-@media screen and (min-width: 500px) and (max-width: 726px) {
-    #honors .section-content {
-        padding-left: 10vw;
-        padding-right: 10vw;
-        width: calc(100% - 20vw);
-    }
 }

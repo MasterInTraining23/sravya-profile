@@ -4,6 +4,10 @@
  * section.
  */
 
+#about .section-content {
+	width: 100%;
+}
+
 #about .about-pic {
 	height: 25%;
 	width: 25%;

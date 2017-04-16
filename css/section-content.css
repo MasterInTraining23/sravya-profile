@@ -7,7 +7,26 @@ section {
 }
 
 .section-content {
+	font-size: medium;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: medium;
+	text-align: justify;
+}
+
+@media screen and (min-width: 1024px) {
+    .section-content {
+        width: calc(100% - 40vw);
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+    .section-content {
+        width: calc(100% - 26vw);
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    .section-content {
+        width: calc(100% - 20vw);
+    }
 }

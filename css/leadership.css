@@ -8,6 +8,33 @@
 	padding: 25px;
 }
 
+#leadership .single-leadership-container {
+	margin-bottom: 25px;
+}
+
+#leadership .organization-img-container,
+#leadership .experience-info {
+	display: inline-block;
+}
+
+#leadership .organization-img-container {
+	height: 55px;
+	padding-right: 2%;
+	width: 75px;
+	vertical-align: top;
+}
+
+#leadership .organization-img {
+	height: 100%;
+	padding-top: 5%;
+	width: 100%;
+}
+
+#leadership .experience-info {
+	width: 85%;
+}
+
+
 #leadership .organization-name {
 	font-weight: bold;
 }

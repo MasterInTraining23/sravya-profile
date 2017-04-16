@@ -8,6 +8,32 @@
 	padding: 25px;
 }
 
+#research .single-research-container {
+	margin-bottom: 25px;
+}
+
+#research .institution-img-container,
+#research .experience-info {
+	display: inline-block;
+}
+
+#research .institution-img-container {
+	height: 55px;
+	padding-right: 2%;
+	width: 75px;
+	vertical-align: top;
+}
+
+#research .institution-img {
+	height: 100%;
+	padding-top: 5%;
+	width: 100%;
+}
+
+#research .experience-info {
+	width: 85%;
+}
+
 #research .institution-name {
 	font-weight: bold;
 }

@@ -47,6 +47,7 @@
 
 #leadership .leadership-details {
 	cursor: pointer;
+	outline: none;
 }
 
 #leadership .achievements-container {

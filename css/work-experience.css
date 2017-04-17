@@ -42,6 +42,7 @@
 
 #work-experience .achievements-details {
 	cursor: pointer;
+	outline: none;
 }
 
 #work-experience .achievements-container {

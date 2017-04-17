@@ -44,8 +44,9 @@
 	font-style: italic;
 }
 
-#researh .research-details {
+#research .research-details {
 	cursor: pointer;
+	outline: none;
 }
 
 #research .achievements-container {

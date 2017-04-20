@@ -1,0 +1,15 @@
+{
+  "name": "sravya-profile-website",
+  "description": "Website showcasing Sravya's Achievements and offerings.",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": ">=6.9.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}

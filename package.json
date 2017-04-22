@@ -1,0 +1,14 @@
+{
+    "name": "sravya-profile",
+    "description": "Sravya's personal website",
+    "version": "0.0.1",
+    "private": true,
+    "license": "MIT",
+    "author": "Microsoft",
+    "engines": {
+        "node": ">=6.9.1"
+    },
+    "scripts": {
+        "start": "node index.js"
+    }
+}
